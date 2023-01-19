@@ -16,10 +16,13 @@ def testcase_1():
     driver.add_cookie({"name" : "__Host-GAPS", "value" : "1:H2WJTeB58gfJ1pz-1UywYjo42evbDdi59_phurd5mxnf94ozQPZS9CEERuOvUlUXNAAgiA1-UMrqMRpToTvc_N538JcytWyoqMy66QSwA_jL0-xao6HVjPrVajvVsXSuN3pRxoNwE_ti9g:Pj5JdXRtJI4xYync"})
 
 
+
+
+
     email_inp = driver.find_element(By.XPATH, '//*[@id="identifierId"]')
 
 
-    #email_inp = driver.find_element(By.ID, "id")
+    email_inp = driver.find_element(By.ID, "id")
 
     email_inp.send_keys("prithwirajchakraborty5@gmail.com")
 
